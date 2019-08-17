@@ -1,6 +1,8 @@
 import {createStackNavigator} from "react-navigation";
 import {HomeScreen} from "./home";
 import {DetailsScreen} from "./details";
+import {ActivityIndicatorScreen} from "./ActivityIndicator";
+import {WidgetScreen} from "./widget";
 
 /**
  * 专门用来做导航用的类
@@ -12,7 +14,9 @@ export const AppNavigator = createStackNavigator({
     },
     Details: {
         screen: DetailsScreen
-    }
-},{
+    },
+    Widget: WidgetScreen,
+    ActivityIndicator: ActivityIndicatorScreen
+}, {
     initialRouteName: "Home"
 });

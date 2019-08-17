@@ -40,15 +40,13 @@ export class HomeScreen extends Component {
                                 <Text style={styles.footer}>Engine: Hermes</Text>
                             </View>
                         )}
+                        <Button title='组件' onPress={()=>{
+                            this.props.navigation.navigate("Widget")
+                        }}/>
                         <View style={styles.body}>
                             <Button title='跳转界面' onPress={() => {
                                 //栈的导航
-                                this.props.navigation.dispatch(StackActions.reset({
-                                    index: 0,
-                                    actions: [
-                                        NavigationActions.navigate({routeName: 'Details'})
-                                    ],
-                                }))
+                                this.props.navigation.navigate("Details")
                             }}/>
                         </View>
                     </ScrollView>
