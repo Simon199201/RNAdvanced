@@ -3,9 +3,13 @@ import {HomeScreen} from "./home";
 import {DetailsScreen} from "./details";
 import {ActivityIndicatorScreen} from "./ActivityIndicator";
 import {WidgetScreen} from "./widget";
+import {ButtonScreen} from "./button";
+import {DrawerLayout} from "./drawerlayout";
+import {FlatListScreen} from "./flatlist";
+import {ImageScreen} from "./image";
 
 /**
- * ×¨ÃÅÓÃÀ´×öµ¼º½ÓÃµÄÀà
+ * ×¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½
  * @type {NavigationContainer}
  */
 export const AppNavigator = createStackNavigator({
@@ -16,7 +20,11 @@ export const AppNavigator = createStackNavigator({
         screen: DetailsScreen
     },
     Widget: WidgetScreen,
-    ActivityIndicator: ActivityIndicatorScreen
+    ActivityIndicator: ActivityIndicatorScreen,
+    Button:ButtonScreen,
+    DrawerLayout:DrawerLayout,
+    FlatList:FlatListScreen,
+    Image1:ImageScreen,
 }, {
     initialRouteName: "Home"
 });

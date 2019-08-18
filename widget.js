@@ -9,19 +9,35 @@ import React from 'react';
 import {
   View,
   Text,
-  Button
+  Button,
+  StyleSheet,
   } from 'react-native';
 
  export class WidgetScreen extends React.Component {
   render() {
     return (
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        <View style={{ flex: 1}}>
           <Text>组件</Text>
-          <Button title={'ActivityIndicator'} onPress={()=>{
+          <Button style={styles._button} title={'ActivityIndicator'} onPress={()=>{
               this.props.navigation.navigate("ActivityIndicator")
           }}/>
+            <Button style={styles._button} title={'Button'} onPress={()=>{
+                this.props.navigation.navigate("Button")
+            }}/>
+            <Button style={styles._button} title={'DrawerLayout'} onPress={()=>{
+                this.props.navigation.navigate("DrawerLayout")
+            }}/>
+            <Button style={styles._button} title={'FlatList'} onPress={()=>{
+                this.props.navigation.navigate("FlatList")
+            }}/>
+            <Button style={styles._button} title={'Image'} onPress={()=>{
+                this.props.navigation.navigate("Image1")
+            }}/>
         </View>
     );
   }
 }
+const styles = StyleSheet.create({
+    _button :{flex: 1,backgroundColor:'blue'},
+});
 
