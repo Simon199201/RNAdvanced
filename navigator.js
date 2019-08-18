@@ -7,6 +7,7 @@ import {ButtonScreen} from "./button";
 import {DrawerLayout} from "./drawerlayout";
 import {FlatListScreen} from "./flatlist";
 import {ImageScreen} from "./image";
+import {KeyBoardScreen} from "./KeyboardAvoidingViewScreen";
 
 /**
  * ר�������������õ���
@@ -25,6 +26,7 @@ export const AppNavigator = createStackNavigator({
     DrawerLayout:DrawerLayout,
     FlatList:FlatListScreen,
     Image1:ImageScreen,
+    Keyboard:KeyBoardScreen,
 }, {
     initialRouteName: "Home"
 });
