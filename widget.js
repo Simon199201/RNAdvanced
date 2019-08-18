@@ -45,6 +45,9 @@ import {
             <Button style={styles._button} title={'Progress'} onPress={()=>{
                 this.props.navigation.navigate("Progress")
             }}/>
+            <Button style={styles._button} title={'RefreshControl'} onPress={()=>{
+                this.props.navigation.navigate("RefreshControl")
+            }}/>
         </View>
     );
   }

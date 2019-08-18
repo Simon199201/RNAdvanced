@@ -11,6 +11,7 @@ import {KeyBoardScreen} from "./KeyboardAvoidingViewScreen";
 import {ModalScreen} from "./modal";
 import {PickerScreen} from "./picker";
 import {ProgressScreen} from "./progress";
+import {RefreshControlScreen} from "./refreshcontrol";
 
 /**
  * ר�������������õ���
@@ -33,6 +34,7 @@ export const AppNavigator = createStackNavigator({
     Modal:ModalScreen,
     Picker:PickerScreen,
     Progress:ProgressScreen,
+    RefreshControl:RefreshControlScreen,
 }, {
     initialRouteName: "Home"
 });
