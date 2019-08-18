@@ -51,6 +51,9 @@ import {
             <Button style={styles._button} title={'SafeAreaView'} onPress={()=>{
                 this.props.navigation.navigate("SafeAreaView")
             }}/>
+            <Button style={styles._button} title={'ScrollView'} onPress={()=>{
+                this.props.navigation.navigate("ScrollView")
+            }}/>
         </View>
     );
   }
