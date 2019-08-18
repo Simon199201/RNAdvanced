@@ -9,6 +9,7 @@ import {FlatListScreen} from "./flatlist";
 import {ImageScreen} from "./image";
 import {KeyBoardScreen} from "./KeyboardAvoidingViewScreen";
 import {ModalScreen} from "./modal";
+import {PickerScreen} from "./picker";
 
 /**
  * ר�������������õ���
@@ -29,6 +30,7 @@ export const AppNavigator = createStackNavigator({
     Image1:ImageScreen,
     Keyboard:KeyBoardScreen,
     Modal:ModalScreen,
+    Picker:PickerScreen,
 }, {
     initialRouteName: "Home"
 });

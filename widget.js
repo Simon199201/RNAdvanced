@@ -39,6 +39,9 @@ import {
             <Button style={styles._button} title={'Modal'} onPress={()=>{
                 this.props.navigation.navigate("Modal")
             }}/>
+            <Button style={styles._button} title={'Picker'} onPress={()=>{
+                this.props.navigation.navigate("Picker")
+            }}/>
         </View>
     );
   }
