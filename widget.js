@@ -36,6 +36,9 @@ import {
             <Button style={styles._button} title={'Keyboard'} onPress={()=>{
                 this.props.navigation.navigate("Keyboard")
             }}/>
+            <Button style={styles._button} title={'Modal'} onPress={()=>{
+                this.props.navigation.navigate("Modal")
+            }}/>
         </View>
     );
   }

@@ -8,6 +8,7 @@ import {DrawerLayout} from "./drawerlayout";
 import {FlatListScreen} from "./flatlist";
 import {ImageScreen} from "./image";
 import {KeyBoardScreen} from "./KeyboardAvoidingViewScreen";
+import {ModalScreen} from "./modal";
 
 /**
  * ר�������������õ���
@@ -27,6 +28,7 @@ export const AppNavigator = createStackNavigator({
     FlatList:FlatListScreen,
     Image1:ImageScreen,
     Keyboard:KeyBoardScreen,
+    Modal:ModalScreen,
 }, {
     initialRouteName: "Home"
 });
