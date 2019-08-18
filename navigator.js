@@ -12,6 +12,7 @@ import {ModalScreen} from "./modal";
 import {PickerScreen} from "./picker";
 import {ProgressScreen} from "./progress";
 import {RefreshControlScreen} from "./refreshcontrol";
+import {SafeAreaViewScreen} from "./safeareaview";
 
 /**
  * ר�������������õ���
@@ -35,6 +36,7 @@ export const AppNavigator = createStackNavigator({
     Picker:PickerScreen,
     Progress:ProgressScreen,
     RefreshControl:RefreshControlScreen,
+    SafeAreaView:SafeAreaViewScreen,
 }, {
     initialRouteName: "Home"
 });

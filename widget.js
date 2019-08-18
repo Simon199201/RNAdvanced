@@ -48,6 +48,9 @@ import {
             <Button style={styles._button} title={'RefreshControl'} onPress={()=>{
                 this.props.navigation.navigate("RefreshControl")
             }}/>
+            <Button style={styles._button} title={'SafeAreaView'} onPress={()=>{
+                this.props.navigation.navigate("SafeAreaView")
+            }}/>
         </View>
     );
   }
