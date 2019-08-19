@@ -57,6 +57,9 @@ import {
             <Button style={styles._button} title={'SelectionList'} onPress={()=>{
                 this.props.navigation.navigate("SelectionList")
             }}/>
+            <Button style={styles._button} title={'Slider'} onPress={()=>{
+                this.props.navigation.navigate("Slider")
+            }}/>
         </View>
     );
   }

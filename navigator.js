@@ -15,6 +15,7 @@ import {RefreshControlScreen} from "./refreshcontrol";
 import {SafeAreaViewScreen} from "./safeareaview";
 import {ScrollviewScreen} from "./scrollview";
 import {SelectionListScreen} from './selectionlist';
+import {SliderScreen} from './slider';
 
 /**
  * ר�������������õ���
@@ -41,6 +42,7 @@ export const AppNavigator = createStackNavigator({
     SafeAreaView:SafeAreaViewScreen,
     ScrollView:ScrollviewScreen,
     SelectionList:SelectionListScreen,
+    Slider:SliderScreen,
 }, {
     initialRouteName: "Home"
 });
