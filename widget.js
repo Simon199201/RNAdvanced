@@ -54,6 +54,9 @@ import {
             <Button style={styles._button} title={'ScrollView'} onPress={()=>{
                 this.props.navigation.navigate("ScrollView")
             }}/>
+            <Button style={styles._button} title={'SelectionList'} onPress={()=>{
+                this.props.navigation.navigate("SelectionList")
+            }}/>
         </View>
     );
   }
