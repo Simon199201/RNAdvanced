@@ -17,6 +17,7 @@ import {ScrollviewScreen} from "./scrollview";
 import {SelectionListScreen} from './selectionlist';
 import {SliderScreen} from './slider';
 import {StatusBarScreen} from './statusbar';
+import {SwitchScreen} from './switch';
 
 /**
  * ר�������������õ���
@@ -45,6 +46,7 @@ export const AppNavigator = createStackNavigator({
     SelectionList:SelectionListScreen,
     Slider:SliderScreen,
     StatusBar:StatusBarScreen,
+    Switch:SwitchScreen,
 }, {
     initialRouteName: "Home"
 });

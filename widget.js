@@ -63,6 +63,9 @@ import {
             <Button style={styles._button} title={'StatusBar'} onPress={()=>{
                 this.props.navigation.navigate("StatusBar")
             }}/>
+            <Button style={styles._button} title={'Switch'} onPress={()=>{
+                this.props.navigation.navigate("Switch")
+            }}/>
         </View>
     );
   }
