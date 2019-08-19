@@ -16,6 +16,7 @@ import {SafeAreaViewScreen} from "./safeareaview";
 import {ScrollviewScreen} from "./scrollview";
 import {SelectionListScreen} from './selectionlist';
 import {SliderScreen} from './slider';
+import {StatusBarScreen} from './statusbar';
 
 /**
  * ר�������������õ���
@@ -43,6 +44,7 @@ export const AppNavigator = createStackNavigator({
     ScrollView:ScrollviewScreen,
     SelectionList:SelectionListScreen,
     Slider:SliderScreen,
+    StatusBar:StatusBarScreen,
 }, {
     initialRouteName: "Home"
 });

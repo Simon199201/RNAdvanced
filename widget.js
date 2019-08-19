@@ -60,6 +60,9 @@ import {
             <Button style={styles._button} title={'Slider'} onPress={()=>{
                 this.props.navigation.navigate("Slider")
             }}/>
+            <Button style={styles._button} title={'StatusBar'} onPress={()=>{
+                this.props.navigation.navigate("StatusBar")
+            }}/>
         </View>
     );
   }
