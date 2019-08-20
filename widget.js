@@ -79,6 +79,9 @@ import {
             <Button style={styles._button} title={'TouchableHighlight'} onPress={()=>{
                 this.props.navigation.navigate("TouchableHighlight")
             }}/>
+            <Button style={styles._button} title={'TouchableNativeFeedback'} onPress={()=>{
+                this.props.navigation.navigate("TouchableNativeFeedback")
+            }}/>
         </ScrollView>
     );
   }

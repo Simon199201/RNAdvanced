@@ -22,6 +22,7 @@ import {TextScreen} from "./text";
 import {TextInputScreen} from "./textinput";
 import {ToolBarScreen} from './toolbarandroid';
 import {TouchableHighlightScreen} from './touchablehighlight';
+import {TouchableNativeFeedbackScreen} from './touchablenativefeedback';
 
 /**
  * ר�������������õ���
@@ -55,6 +56,7 @@ export const AppNavigator = createStackNavigator({
     TextInput: TextInputScreen,
     ToolbarAndroid: ToolBarScreen,
     TouchableHighlight: TouchableHighlightScreen,
+    TouchableNativeFeedback: TouchableNativeFeedbackScreen,
 }, {
     initialRouteName: "Home"
 });
