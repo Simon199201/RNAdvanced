@@ -76,6 +76,9 @@ import {
             <Button style={styles._button} title={'ToolbarAndroid'} onPress={()=>{
                 this.props.navigation.navigate("ToolbarAndroid")
             }}/>
+            <Button style={styles._button} title={'TouchableHighlight'} onPress={()=>{
+                this.props.navigation.navigate("TouchableHighlight")
+            }}/>
         </ScrollView>
     );
   }
