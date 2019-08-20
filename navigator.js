@@ -28,6 +28,7 @@ import {ViewPagerAndroidScreen} from './ui/components/viewpagerandroid';
 import {WebViewScreen} from './ui/components/webview';
 import {APIScreen} from './ui/apis/apis';
 import {AlertScreen} from './ui/apis/alert';
+import {AnimatedScreen} from './ui/apis/animated';
 
 /**
  * ר�������������õ���
@@ -67,6 +68,7 @@ export const AppNavigator = createStackNavigator({
     ViewPagerAndroid: ViewPagerAndroidScreen,
     WebView: WebViewScreen,
     Alert: AlertScreen,
+    Animated: AnimatedScreen,
 }, {
     initialRouteName: "Home"
 });

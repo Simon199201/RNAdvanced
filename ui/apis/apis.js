@@ -22,6 +22,9 @@ export class APIScreen extends React.Component {
                 <Button title={'alert'} onPress={() => {
                     this.props.navigation.navigate('Alert')
                 }}/>
+                <Button title={'Animated'} onPress={() => {
+                    this.props.navigation.navigate('Animated')
+                }}/>
             </ScrollView>
         );
     }
