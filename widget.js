@@ -70,6 +70,9 @@ import {
             <Button style={styles._button} title={'Text'} onPress={()=>{
                 this.props.navigation.navigate("Text")
             }}/>
+            <Button style={styles._button} title={'TextInput'} onPress={()=>{
+                this.props.navigation.navigate("TextInput")
+            }}/>
         </ScrollView>
     );
   }

@@ -26,8 +26,6 @@ export class TextScreen extends React.Component {
                         and blue
                     </Text>
                 </Text>
-                <Text dataDetectorTypes={'link'}>http://www.baidu.com</Text>
-                /*//不管用*/
             </View>
         );
     }
