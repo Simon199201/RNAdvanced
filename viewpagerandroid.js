@@ -17,7 +17,7 @@ export class ViewPagerAndroidScreen extends React.Component {
         return (
             <ViewPagerAndroid style={styles.viewPager}>
                 <View style={styles.pageStyle} key={1}>
-                    <Text style={{color: 'red'}}>First Pag</Text>
+                    <Text style={{color: 'red'}}>First Page</Text>
                 </View>
                 <View style={styles.pageStyle} key={2}>
                     <Text style={{color: 'red'}}>Second Page</Text>

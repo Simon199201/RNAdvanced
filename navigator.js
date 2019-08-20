@@ -26,6 +26,8 @@ import {TouchableNativeFeedbackScreen} from './touchablenativefeedback';
 import {TouchableOpacityScreen} from './touchableOpacity';
 import {ViewPagerAndroidScreen} from './viewpagerandroid';
 import {WebViewScreen} from './webview';
+import {APIScreen} from './apis';
+import {AlertScreen} from './alert';
 
 /**
  * ר�������������õ���
@@ -39,6 +41,7 @@ export const AppNavigator = createStackNavigator({
         screen: DetailsScreen
     },
     Widget: WidgetScreen,
+    APIS:APIScreen,
     ActivityIndicator: ActivityIndicatorScreen,
     Button:ButtonScreen,
     DrawerLayout:DrawerLayout,
@@ -63,6 +66,7 @@ export const AppNavigator = createStackNavigator({
     TouchableOpacity: TouchableOpacityScreen,
     ViewPagerAndroid: ViewPagerAndroidScreen,
     WebView: WebViewScreen,
+    Alert: AlertScreen,
 }, {
     initialRouteName: "Home"
 });

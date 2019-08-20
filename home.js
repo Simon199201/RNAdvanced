@@ -43,6 +43,9 @@ export class HomeScreen extends Component {
                         <Button title='组件' onPress={()=>{
                             this.props.navigation.navigate("Widget")
                         }}/>
+                        <Button title='APIs' onPress={()=>{
+                            this.props.navigation.navigate("APIS")
+                        }}/>
                         <View style={styles.body}>
                             <Button title='跳转界面' onPress={() => {
                                 //栈的导航
