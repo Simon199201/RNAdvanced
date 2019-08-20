@@ -25,8 +25,14 @@ export class APIScreen extends React.Component {
                 <Button title={'Animated'} onPress={() => {
                     this.props.navigation.navigate('Animated')
                 }}/>
+                <Button style={styles._button} title={'AppState'} onPress={()=>{
+                    this.props.navigation.navigate("AppState")
+                }}/>
             </ScrollView>
         );
     }
 }
+const styles = StyleSheet.create({
+    _button :{flex: 1,backgroundColor:'blue'},
+});
 

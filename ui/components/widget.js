@@ -18,7 +18,7 @@ import {
   render() {
     return (
         <ScrollView style={{ flex: 1}}>
-          <Text>组件</Text>
+          <Text style={{textAlign:'center'}} >组件</Text>
           <Button style={styles._button} title={'ActivityIndicator'} onPress={()=>{
               this.props.navigation.navigate("ActivityIndicator")
           }}/>

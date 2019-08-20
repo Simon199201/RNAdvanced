@@ -11,7 +11,7 @@ import {KeyBoardScreen} from "./ui/components/KeyboardAvoidingViewScreen";
 import {ModalScreen} from "./ui/components/modal";
 import {PickerScreen} from "./ui/components/picker";
 import {ProgressScreen} from "./ui/components/progress";
-import {RefreshControlScreen} from "./ui/apis/refreshcontrol";
+import {RefreshControlScreen} from "./ui/components/refreshcontrol";
 import {SafeAreaViewScreen} from "./ui/components/safeareaview";
 import {ScrollviewScreen} from "./ui/components/scrollview";
 import {SelectionListScreen} from './ui/components/selectionlist';
@@ -29,6 +29,7 @@ import {WebViewScreen} from './ui/components/webview';
 import {APIScreen} from './ui/apis/apis';
 import {AlertScreen} from './ui/apis/alert';
 import {AnimatedScreen} from './ui/apis/animated';
+import {AppStateScreen} from './ui/apis/appstate';
 
 /**
  * ר�������������õ���
@@ -69,6 +70,7 @@ export const AppNavigator = createStackNavigator({
     WebView: WebViewScreen,
     Alert: AlertScreen,
     Animated: AnimatedScreen,
+    AppState: AppStateScreen,
 }, {
     initialRouteName: "Home"
 });
