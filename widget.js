@@ -85,6 +85,9 @@ import {
             <Button style={styles._button} title={'TouchableOpacity'} onPress={()=>{
                 this.props.navigation.navigate("TouchableOpacity")
             }}/>
+            <Button style={styles._button} title={'ViewPagerAndroid'} onPress={()=>{
+                this.props.navigation.navigate("ViewPagerAndroid")
+            }}/>
         </ScrollView>
     );
   }

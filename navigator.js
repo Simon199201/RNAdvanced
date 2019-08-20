@@ -24,6 +24,7 @@ import {ToolBarScreen} from './toolbarandroid';
 import {TouchableHighlightScreen} from './touchablehighlight';
 import {TouchableNativeFeedbackScreen} from './touchablenativefeedback';
 import {TouchableOpacityScreen} from './touchableOpacity';
+import {ViewPagerAndroidScreen} from './viewpagerandroid';
 
 /**
  * ר�������������õ���
@@ -59,6 +60,7 @@ export const AppNavigator = createStackNavigator({
     TouchableHighlight: TouchableHighlightScreen,
     TouchableNativeFeedback: TouchableNativeFeedbackScreen,
     TouchableOpacity: TouchableOpacityScreen,
+    ViewPagerAndroid: ViewPagerAndroidScreen,
 }, {
     initialRouteName: "Home"
 });
