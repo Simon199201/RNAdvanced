@@ -20,6 +20,7 @@ import {StatusBarScreen} from './statusbar';
 import {SwitchScreen} from './switch';
 import {TextScreen} from "./text";
 import {TextInputScreen} from "./textinput";
+import {ToolBarScreen} from './toolbarandroid';
 
 /**
  * ר�������������õ���
@@ -51,6 +52,7 @@ export const AppNavigator = createStackNavigator({
     Switch:SwitchScreen,
     Text:TextScreen,
     TextInput: TextInputScreen,
+    ToolbarAndroid: ToolBarScreen,
 }, {
     initialRouteName: "Home"
 });

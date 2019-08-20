@@ -73,6 +73,9 @@ import {
             <Button style={styles._button} title={'TextInput'} onPress={()=>{
                 this.props.navigation.navigate("TextInput")
             }}/>
+            <Button style={styles._button} title={'ToolbarAndroid'} onPress={()=>{
+                this.props.navigation.navigate("ToolbarAndroid")
+            }}/>
         </ScrollView>
     );
   }
