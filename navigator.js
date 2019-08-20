@@ -18,6 +18,7 @@ import {SelectionListScreen} from './selectionlist';
 import {SliderScreen} from './slider';
 import {StatusBarScreen} from './statusbar';
 import {SwitchScreen} from './switch';
+import {TextScreen} from "./text";
 
 /**
  * ר�������������õ���
@@ -47,6 +48,7 @@ export const AppNavigator = createStackNavigator({
     Slider:SliderScreen,
     StatusBar:StatusBarScreen,
     Switch:SwitchScreen,
+    Text:TextScreen,
 }, {
     initialRouteName: "Home"
 });

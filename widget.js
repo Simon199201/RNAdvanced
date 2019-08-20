@@ -11,12 +11,13 @@ import {
   Text,
   Button,
   StyleSheet,
+  ScrollView
   } from 'react-native';
 
  export class WidgetScreen extends React.Component {
   render() {
     return (
-        <View style={{ flex: 1}}>
+        <ScrollView style={{ flex: 1}}>
           <Text>组件</Text>
           <Button style={styles._button} title={'ActivityIndicator'} onPress={()=>{
               this.props.navigation.navigate("ActivityIndicator")
@@ -66,7 +67,10 @@ import {
             <Button style={styles._button} title={'Switch'} onPress={()=>{
                 this.props.navigation.navigate("Switch")
             }}/>
-        </View>
+            <Button style={styles._button} title={'Text'} onPress={()=>{
+                this.props.navigation.navigate("Text")
+            }}/>
+        </ScrollView>
     );
   }
 }
