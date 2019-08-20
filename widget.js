@@ -88,6 +88,9 @@ import {
             <Button style={styles._button} title={'ViewPagerAndroid'} onPress={()=>{
                 this.props.navigation.navigate("ViewPagerAndroid")
             }}/>
+            <Button style={styles._button} title={'WebView'} onPress={()=>{
+                this.props.navigation.navigate("WebView")
+            }}/>
         </ScrollView>
     );
   }
