@@ -21,7 +21,7 @@ export class TouchableOpacityScreen extends React.Component {
             } }
                               underlayColor={'blue'}
                               activeOpacity={0.5}>
-                <Image source={require('./img/baihui.jpg')} style={{width:'100%',height:'100%',backgroundColor:'yellow'}}/>
+                <Image source={require('../../img/baihui.jpg')} style={{width:'100%',height:'100%',backgroundColor:'yellow'}}/>
             </TouchableOpacity>
         );
     }

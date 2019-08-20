@@ -20,7 +20,7 @@ export class TouchableHighlightScreen extends React.Component {
                 console.log('TouchableHighlight !!!');
             }}
                                 underlayColor={'blue'}>
-                <Image source={require('./img/baihui.jpg')} style={{width: 50, height: 50}}/>
+                <Image source={require('../../img/baihui.jpg')} style={{width: 50, height: 50}}/>
             </TouchableHighlight>
         );
     }
