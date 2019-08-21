@@ -34,8 +34,8 @@ import {
             <Button style={styles._button} title={'Image'} onPress={()=>{
                 this.props.navigation.navigate("Image1")
             }}/>
-            <Button style={styles._button} title={'Keyboard'} onPress={()=>{
-                this.props.navigation.navigate("Keyboard")
+            <Button style={styles._button} title={'KeyboardAvoid'} onPress={()=>{
+                this.props.navigation.navigate("KeyboardAvoid")
             }}/>
             <Button style={styles._button} title={'Modal'} onPress={()=>{
                 this.props.navigation.navigate("Modal")

@@ -37,6 +37,7 @@ import {ClipboardScreen} from "./ui/apis/clipboard";
 import {DatePickerAndroidScreen} from './ui/apis/datapickerandroid';
 import {DimensionsScreen} from './ui/apis/dimensions';
 import {InteractionManagerScreen} from './ui/apis/interactionmanager';
+import {KeyboardScreen} from './ui/apis/keyboard';
 
 /**
  * ר�������������õ���
@@ -56,7 +57,7 @@ export const AppNavigator = createStackNavigator({
     DrawerLayout:DrawerLayout,
     FlatList:FlatListScreen,
     Image1:ImageScreen,
-    Keyboard:KeyBoardScreen,
+    KeyboardAvoid:KeyBoardScreen,
     Modal:ModalScreen,
     Picker:PickerScreen,
     Progress:ProgressScreen,
@@ -85,6 +86,7 @@ export const AppNavigator = createStackNavigator({
     DatePickerAndroid: DatePickerAndroidScreen,
     Dimensions: DimensionsScreen,
     InteractionManager: InteractionManagerScreen,
+    Keyboard: KeyboardScreen,
 }, {
     initialRouteName: "Home"
 });
