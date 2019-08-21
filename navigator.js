@@ -38,6 +38,7 @@ import {DatePickerAndroidScreen} from './ui/apis/datapickerandroid';
 import {DimensionsScreen} from './ui/apis/dimensions';
 import {InteractionManagerScreen} from './ui/apis/interactionmanager';
 import {KeyboardScreen} from './ui/apis/keyboard';
+import {LinkingScreen} from './ui/apis/linking';
 
 /**
  * ר�������������õ���
@@ -87,6 +88,7 @@ export const AppNavigator = createStackNavigator({
     Dimensions: DimensionsScreen,
     InteractionManager: InteractionManagerScreen,
     Keyboard: KeyboardScreen,
+    Linking: LinkingScreen,
 }, {
     initialRouteName: "Home"
 });
