@@ -46,6 +46,9 @@ export class APIScreen extends React.Component {
                 <Button style={styles._button} title={'Dimensions'} onPress={()=>{
                     this.props.navigation.navigate("Dimensions")
                 }}/>
+                <Button style={styles._button} title={'InteractionManager'} onPress={()=>{
+                    this.props.navigation.navigate("InteractionManager")
+                }}/>
             </ScrollView>
         );
     }
