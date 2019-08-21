@@ -34,6 +34,7 @@ import {AsyncStorageScreen} from "./ui/apis/asyncstorage";
 import {BackHandlerScreen} from "./ui/apis/backhandler";
 import {CameraRollScreen} from "./ui/apis/cameraroll";
 import {ClipboardScreen} from "./ui/apis/clipboard";
+import {DatePickerAndroidScreen} from './ui/apis/datapickerandroid';
 
 /**
  * ר�������������õ���
@@ -79,6 +80,7 @@ export const AppNavigator = createStackNavigator({
     BackHandler: BackHandlerScreen,
     CameraRoll: CameraRollScreen,
     Clipboard: ClipboardScreen,
+    DatePickerAndroid: DatePickerAndroidScreen,
 }, {
     initialRouteName: "Home"
 });
