@@ -31,6 +31,9 @@ export class APIScreen extends React.Component {
                 <Button style={styles._button} title={'AsyncStorage'} onPress={()=>{
                     this.props.navigation.navigate("AsyncStorage")
                 }}/>
+                <Button style={styles._button} title={'BackHandler'} onPress={()=>{
+                    this.props.navigation.navigate("BackHandler")
+                }}/>
             </ScrollView>
         );
     }
