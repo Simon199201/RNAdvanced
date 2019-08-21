@@ -30,6 +30,7 @@ import {APIScreen} from './ui/apis/apis';
 import {AlertScreen} from './ui/apis/alert';
 import {AnimatedScreen} from './ui/apis/animated';
 import {AppStateScreen} from './ui/apis/appstate';
+import {AsyncStorageScreen} from "./ui/apis/asyncstorage";
 
 /**
  * ר�������������õ���
@@ -71,6 +72,7 @@ export const AppNavigator = createStackNavigator({
     Alert: AlertScreen,
     Animated: AnimatedScreen,
     AppState: AppStateScreen,
+    AsyncStorage: AsyncStorageScreen,
 }, {
     initialRouteName: "Home"
 });
