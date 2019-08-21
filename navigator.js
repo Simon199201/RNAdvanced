@@ -40,6 +40,7 @@ import {InteractionManagerScreen} from './ui/apis/interactionmanager';
 import {KeyboardScreen} from './ui/apis/keyboard';
 import {LinkingScreen} from './ui/apis/linking';
 import {PanResponderScreen} from './ui/apis/panresponder';
+import {PermissionsAndroidScreen} from './ui/apis/permissions';
 
 /**
  * ר�������������õ���
@@ -91,6 +92,7 @@ export const AppNavigator = createStackNavigator({
     Keyboard: KeyboardScreen,
     Linking: LinkingScreen,
     PanResponder: PanResponderScreen,
+    PermissionsAndroid: PermissionsAndroidScreen,
 }, {
     initialRouteName: "Home"
 });
