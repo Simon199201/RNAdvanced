@@ -61,6 +61,9 @@ export class APIScreen extends React.Component {
                 <Button style={styles._button} title={'PermissionsAndroid'} onPress={()=>{
                     this.props.navigation.navigate("PermissionsAndroid")
                 }}/>
+                <Button style={styles._button} title={'TimePickerAndroid'} onPress={()=>{
+                    this.props.navigation.navigate("TimePickerAndroid")
+                }}/>
             </ScrollView>
         );
     }

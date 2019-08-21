@@ -41,6 +41,7 @@ import {KeyboardScreen} from './ui/apis/keyboard';
 import {LinkingScreen} from './ui/apis/linking';
 import {PanResponderScreen} from './ui/apis/panresponder';
 import {PermissionsAndroidScreen} from './ui/apis/permissions';
+import {TimePickerAndroidScreen} from './ui/apis/timepickerandroid';
 
 /**
  * ר�������������õ���
@@ -93,6 +94,7 @@ export const AppNavigator = createStackNavigator({
     Linking: LinkingScreen,
     PanResponder: PanResponderScreen,
     PermissionsAndroid: PermissionsAndroidScreen,
+    TimePickerAndroid: TimePickerAndroidScreen,
 }, {
     initialRouteName: "Home"
 });
