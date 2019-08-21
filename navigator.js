@@ -39,6 +39,7 @@ import {DimensionsScreen} from './ui/apis/dimensions';
 import {InteractionManagerScreen} from './ui/apis/interactionmanager';
 import {KeyboardScreen} from './ui/apis/keyboard';
 import {LinkingScreen} from './ui/apis/linking';
+import {PanResponderScreen} from './ui/apis/panresponder';
 
 /**
  * ר�������������õ���
@@ -89,6 +90,7 @@ export const AppNavigator = createStackNavigator({
     InteractionManager: InteractionManagerScreen,
     Keyboard: KeyboardScreen,
     Linking: LinkingScreen,
+    PanResponder: PanResponderScreen,
 }, {
     initialRouteName: "Home"
 });
