@@ -44,6 +44,7 @@ import {PermissionsAndroidScreen} from './ui/apis/permissions';
 import {TimePickerAndroidScreen} from './ui/apis/timepickerandroid';
 import {ToastAndroidScreen} from './ui/apis/toastandroid';
 import {TimerScreen} from "./ui/apis/timer";
+import {BundleJsScreen} from './ui/custombundlejs/bundlejs';
 
 /**
  * ר�������������õ���
@@ -99,6 +100,7 @@ export const AppNavigator = createStackNavigator({
     TimePickerAndroid: TimePickerAndroidScreen,
     ToastAndroid: ToastAndroidScreen,
     Timer: TimerScreen,
+    BundleJs: BundleJsScreen,
 }, {
     initialRouteName: "Home"
 });

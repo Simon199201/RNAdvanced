@@ -15,6 +15,7 @@
     "runAndroidDebug": "react-native run-android --variant rnDebug",
     "prebuildAndroidRelease": "npm run cleanupAndroid",
     "buildAndroidRelease": "cd android && ./gradlew assembleRnRelease",
+    "buildJSBundleFile": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output ./out/android/index.android.bundle --assets-dest ./out/android",
     "killApp": "adb shell am force-stop  com.ainirobot.moduleapp"
   },
   "dependencies": {

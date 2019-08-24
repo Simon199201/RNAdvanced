@@ -52,6 +52,12 @@ export class HomeScreen extends Component {
                                 this.props.navigation.navigate("Details")
                             }}/>
                         </View>
+                        <View style={styles.body}>
+                            <Button title='自定义JSBundleFile位置' onPress={() => {
+                                this.props.navigation.navigate("BundleJs")
+
+                            }}/>
+                        </View>
                     </ScrollView>
                 </SafeAreaView>
             </Fragment>
